@@ -1,0 +1,245 @@
+
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.wraper {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 0;
+    height:auto;
+    font-family:sans-serif;
+    margin-bottom: 0px;
+}
+h1 {
+    font-size: 2.3em;
+}
+.appTittle {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#9f6060;
+    min-height: 80px;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    margin-bottom: 2px;
+    line-height: 80px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top:0;
+}
+
+.textPredefine{
+    width: 100%;
+    position: relative;
+    float: left;
+    min-height: 150px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.textArea {
+    -webkit-box-shadow:inset 0px 0px 0px 2px #9f6060;
+    -moz-box-shadow:inset 0px 0px 0px 2px #9f6060;
+    box-shadow:inset 0px 0px 0px 2px #9f6060;
+    width: 100%;
+    position:relative;
+    float: left;
+    background-color:#fff;
+    min-height: 150px;;    
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 2px;
+    font-size:1em;
+    margin-bottom: 10px;
+
+}
+#textArea {
+    margin: 5px;
+    resize: none;
+    resize: vertical;
+    font-family:sans-serif;
+    font-size: 1em;
+    width:98.5%;
+    min-height:150px;
+    border:0;
+
+}
+.headingArea {
+    position: relative;
+    float: left;
+    background-color: #9f6060;
+    color:white;
+    margin-bottom:-10px;
+    width:100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 50px;
+    padding-left: 0;
+}
+#textArea:focus { 
+    outline: none !important;
+    
+}
+
+.tPleft {
+    width: 50%;
+    background-color: white;
+    position: relative;
+    float: left;
+    text-align: left;
+   
+}
+.tPright {
+    width: 50%;
+    background-color: white;
+    position: relative;
+    float: left;
+    text-align: left;
+}
+h2 {
+    font-size: 1em;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 90px;
+    
+}
+#areaColor  {
+    border: none ;
+    width: 30px;
+    height: 30px;
+    margin-left: 90px;
+
+}
+
+#textColor {
+    border:0; 
+    width: 30px;
+    height: 30px;
+    margin-left: 90px;
+ 
+}
+#fontFamily {
+    margin-left: 90px;
+    width: 200px;
+    height:30px;
+    font-size: 0.9em;
+    
+}
+
+#myFontSize {
+    margin-left: 90px;
+    width: 200px;
+    font-size: 0.9em;
+    height:30px;
+}
+
+.functionality{
+    width: 100%;
+    position: relative;
+    float: left;
+    min-height: 150px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.tPleft2 {
+    width: 50%;
+    background-color: white;
+    position: relative;
+    float: left;
+    text-align: left;
+}
+.tPright2 {
+    width: 50%;
+    background-color: white;
+    position: relative;
+    float: left;
+    text-align: left;
+    height: 20px;
+}
+.btnMargins {
+    margin-top:10px;
+    margin-left: 33px;
+    width:170px;
+    height: 30px;
+    font-size: 1em;
+    text-align: center;
+    
+}
+.readOnlyFild{
+    width: 180px;
+    margin-left:15px;
+
+}
+
+.divText {
+    height: auto;
+    position: fixed;
+    width: 800px;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -5%);   
+    border: 2px solid #9f6060;
+    border-radius: 10px;
+    z-index: 1;
+    background-color: #ebdfdf;
+    padding: 5px;
+    padding-right: 10px;
+    min-height: 130px;
+    font-family: calibri;
+    visibility: hidden;
+    font-size: 1em;
+    padding-top: 40px;
+    resize:vertical;
+    overflow:auto;
+}
+.closeBtn {
+    height: 20px;
+    width: 20px;
+    position: fixed;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -5%);  
+    border: 2px solid #9f6060;
+    border-radius: 5px;
+    z-index: 1;
+    background-color: #ebdfdf;
+    visibility: hidden;
+    justify-content: center;
+    vertical-align: middle;
+    font-family: calibri;
+    padding-left: 13px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+#invisible {
+    visibility: hidden;
+}
+.appFooter {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#9f6060;
+    min-height: 30px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    line-height: 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top:0; 
+}
+h6 {
+    font-size:0.8em;
+}

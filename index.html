@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Checker</title>
+    <link rel="stylesheet" href="styles.css">
+  
+</head>
+
+<body>
+    <div class="divText" id="divText">
+    </div>
+    <div class="closeBtn" id="closeBtn">X</div>
+    <div class="wraper">
+        <div class="appTittle">
+            <h1>Text Check...</h1>
+        </div>
+        
+        <div class="textPredefine">        
+            <form>
+                <div class="tPleft">
+                    <label><h2>Choose typing area color</h2></label>
+                    <input type="color"  id="areaColor" name="areaColor" value="#ffffff">
+                    <label><h2>Choose text color</h2></label>
+                    <input type="color" id="textColor" name="textColor" value="#000000">
+                </div>
+                <div class="tPright">
+                    <label><h2>Choose font family</h2></label>
+                    <select name="fontFamily" id="fontFamily">
+                        <option value="Calibri">Calibri</option>
+                        <option value="TimesNewRoman">Times New Roman</option>
+                        <option value="Serif">Serif</option>
+                        <option value="Arial">Arial</option>
+                    </select>
+                    <label><h2>Choose font size</h2></label>
+                    <select name="myFontSize" id="myFontSize">
+                        <option value="Normal">Normal</option>
+                        <option value="Small">Small</option>
+                        <option value="Large">Large</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+            <div class="headingArea">
+                <h2>Type your text field:</h2>
+            </div>
+        <div class="textArea">
+
+            <textarea id="textArea" name="textArea" placeholder="Click to start typing" spellcheck="false"></textarea>
+
+        </div>
+        
+        <div class="functionality">
+            <form>
+                 <div class="tPleft2">
+                     
+                    <button type="button" id="countWordsBtn" class="btnMargins">Count Words</button>
+                     
+                    <input type="text" id="countWordsResult" name="fieldCountWords" class="btnMargins" value="" readonly>
+                     
+                    <button type="button" id="countCharactersBtn" class="btnMargins">Count Characters</button>
+                     
+                    <input type="text" class="btnMargins" id="countCharactersResult" name="fieldCountCharacters" value="" readonly ><br>
+                     
+                    <button type="button" id="checkLongiestBtn" class="btnMargins">Check Longiest Word</button>
+                     
+                    <input type="text" class="btnMargins" id="checkLongiestResult" name="fieldLongiestWord" value="" readonly >
+                     
+                </div>
+                <div class="tPright2">
+                    
+
+                    
+                    <button type="button" class="btnMargins" id="findBtn" class="btnMargins">Find ..... </button>
+                    
+                    <input type="text" class="btnMargins" id="findField" name="fieldLongiestWord" value="" >
+                    
+                    <button type="button" class="btnMargins" id="allCaps" class="btnMargins">ALL CAPS</button>
+                    
+                    <button type="button" class="btnMargins" id="allSmall" class="btnMargins">All Smallcase</button>
+                    
+                    
+                    <button type="button" class="btnMargins" id="copyText" class="btnMargins">Copy Text</button>
+                    <input id="invisible" type="text" class="btnMargins" name="allSmall" value="" >
+                 
+ 
+                 
+                </div>
+            </form>
+        </div>
+        <div class="appFooter">
+            <h6>&copy2021 - All rights reserved - New Vizantija</h6>
+        </div>    
+    
+    
+    </div>
+    
+   
+    <script src="script.js"></script>
+    
+</body>
+</html>
